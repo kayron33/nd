@@ -35,7 +35,8 @@ header>p{
 main{
     
     padding: 20px;
-    width: 600px;
+    max-width: 600px;
+    min-width: 320px;
     border-radius: 10px;
     margin: auto;
     background-color: white;
