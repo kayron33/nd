@@ -32,6 +32,13 @@ header>p{
     font-size: 35px;
     
 }
+div{
+    background-color: black;
+
+}
+div>a{
+    color: white;
+}
 main{
     margin: auto;
     min-width: 300px;
