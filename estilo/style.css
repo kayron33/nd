@@ -38,6 +38,7 @@ div{
 }
 div>a{
     color: white;
+    text-decoration: none;
 }
 main{
     margin: auto;
