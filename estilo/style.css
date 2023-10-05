@@ -67,6 +67,9 @@ article>p{
 article>ul{
     list-style-position: inside;
 }
+article>iframe{
+    margin: auto;
+}
 
 
 aside{
@@ -90,3 +93,4 @@ aside>ul{
     columns: 2;
     
 }
+
