@@ -45,6 +45,10 @@ main{
     min-width: 300px;
     max-width: 600px;
     background-color: white;
+   
+}
+article>img{
+    width: 100%;
 }
 article>h1{
     background-color: black;
