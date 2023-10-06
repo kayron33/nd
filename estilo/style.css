@@ -34,6 +34,7 @@ header>p{
 }
 div{
     background-color: black;
+    margin: 0px;
 
 }
 div>a{
@@ -45,6 +46,7 @@ main{
     min-width: 300px;
     max-width: 600px;
     background-color: white;
+    
    
 }
 article>img{
