@@ -123,4 +123,19 @@ aside>ul{
     columns: 2;
     
 }
+footer{
+    background-color: black;
+    height: 80px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    min-width: 398px;
+    max-width: 3660px;
+    margin: auto;
+}
+
+footer>p{
+    color: white;
+    width: 10%;
+}
 
