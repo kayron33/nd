@@ -13,33 +13,34 @@ body{
 }
 header{
     background-color: black;
-    min-width: 330px;
+    height: 80px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
     
     
     
 
 }
-
-header>h1{
+h1{
     color: #FBE81A;
+    text-align: 32px;
+    
+}
+
+#nome{
+    width: 30%;
+    
 
 }
-h1>a{
-    color: white;
-   font-size: 15px;
-   margin-left: 6px;
-   text-decoration: none;
+#menu{
+background-color: aqua;
+width: 20%;
+text-align: center;
 }
-a.menu{
-    margin-left:400px;
-    
-}
-header>p{
-    color: #FBE81A;
-    text-align: center;
-    
-    
-}
+
+
+
 
 
 
