@@ -9,72 +9,56 @@
     <link rel="stylesheet" href="estilo/style.css">
 </head>
 <body>
-    <header>
-   <div id="nome">
-    <h1>
-    NORDIESEL
-   </h1>
-   
-  
+    <div class="heder" id="header">
+        <button onclick="toogleSidebar()" class="botão">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+              </svg>
+        </button>
+   <div class="logo_logo">
+    <img src="imagens/JPEG RERAL cortada.jpg" class="logo" alt="logo nd">
+   </div>
+<div class="paginas" id="paginas">
+    <button onclick="toogleSidebar()" class="botão">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+            <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+          </svg>
+    </button>
+    <a href="#" class="ativo">HOME</a>
+    <a href="#">Cursos</a>
+    <a href="#">Sobre nos</a>
+    <a href="#">Contato</a>
 </div>
-<div id="menu">
-    <a href="index.html">Inicio</a>
-    <a href="localização.html">Localização</a>
-    <a href="veiculos.html">Veiculos</a>
-    <a href="serviço.html">Nosso serviço</a>
-    <a href="contato.html">Contato</a>
-</div>
-   
-  
-    
-    
+    </div>
 
-       
-       
-
-       
-       
-       
-
-    </header>
-   
     <main>
-        <article>
-           <h1>Nordiesel</h1>
-           <p>A Nordiesel foi fundada em 1999 por Amilton Monteiro da Silva, trabalhando com Bombas e Bicos Injetores,a empresa sempre contou com profissionais qualificadose, e sempre ofereceu um otímo serviço aos nossos clientes.Não é atoa que a empresa ja esta no mercado amais de 20 anos, e com a mesma qualidade e responsabilidade no que faz, e agora adicionamos a área de eletrica de caminhões  e camionetes.     </p>
-           <img src="imagens/frente da nordiesel300.jpg" alt="Frente da Nordiesel">
-           <h1>Qual o nosso diferencial</h1>
-           <p>Em varias oficinas o seu caminhão passa dias parado certo?Mas na Nordiesel não, na nossa oficina ja temos peças prontas para reposição como exemplo:unidades prontas, valvulas de combustível, reparos para bombas de alta. Temos em nossa empresa as principais peças para que seu caminhão precisa para um serviço rapido e eficiente.  </p>
-           <h1>Afinal com o que trabalhamos</h1>
-           <p>Trabalhamos com a parte de injeção de veiculos a Diesel, com unidade UI eUP, Bombas e Bicos Injetores, bicos eletrônicos de camionete e caminhões ate 2022, nossos diagnosticos são feitos com precisão e com o maimo de cautela possivel para evitar a troca de peças desnecessarias, mechemos com a parte eletrica da parte de funcionamento do motor Ex:chicote de bicos, chicotes de valvulas reguladoras de combustível, sensores de pressao de turbo,oléo e etc,sistema EGR, catalizador, sistemas de arla 32...</p>
-           <img src="imagens/sistema de injeção.jpg" alt="componentes da injeção eletronica">
-           <h1>Com quais  marcas trabalhamos </h1>
-           <p>Atualmente a nossa loja trabaha com todas as marcas de veiculos a Diesel, tanto na linha pesada como na leve</p>
-                
-           
-
-        
-        
-        
-        
-        
-        
-            
-
-        
-        </article>
-
+        <div class="texto" id="texto">
+            <h1>Nordiesel</h1>
+        </div>
+       
     </main>
-    <footer>
-        
-        
-            <img src="imagens/IMAGEM DO CELULAR reduzida.png" alt="Celular">
-            <p>(77)9 9971-5704</p>
-            <img src="imagens/imagem teste fixo 30px.png" alt="telefone fixo">
-            <p>(77) 3611-3383</p>
-        
-    </footer>
+   
    
     
 </body>
+<script>
+    var header = document.getElementById('header');
+    var paginas =document.getElementById('paginas');
+    var texto = document.getElementById('texto');
+    var showSidebar= false;
+
+    function toogleSidebar(){
+        showSidebar = !showSidebar; 
+        if(showSidebar)
+        {
+            paginas.style.marginLeft= '-10vw';
+        }
+        else
+        {
+            paginas.style.marginLeft= '-100vw';
+        }
+        
+        
+    }
+</script>
 </html>
