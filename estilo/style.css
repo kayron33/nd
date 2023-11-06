@@ -54,7 +54,7 @@ body{
     font-weight: bold;
     }
     .ativo{
-        background-color: var(--color-dark1);
+       
         padding: 10px;
         border-radius: 10px;
     }
