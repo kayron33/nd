@@ -84,7 +84,7 @@ body{
             background-color: var(--color-dark4);
             height: 100%;
             width: 35vw;
-            padding: 15em;
+            padding: 1em;
             animation-duration: 1s;
             margin-left: -100vw;
 
