@@ -59,7 +59,7 @@ body{
         border-radius: 10px;
     }
     .texto{
-        text-align: center;
+        
         padding-top: 5em;
         height: 100vh;
         transition: 1s;
@@ -104,8 +104,9 @@ body{
     text-decoration: none;
     color: #0D0D0D;
    }
-   .CONTATO>img{
-    width: 100%;
+   .CONTATO>p{
+    font-size: 30px;
+   
     
    }
         
