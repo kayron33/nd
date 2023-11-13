@@ -64,6 +64,23 @@ body{
         height: 100vh;
         transition: 1s;
     }
+    .inicio{
+        background-image: url(../imagens/frente\ da\ nordiesel.jpg);
+        width: 100%;
+        padding: 19vh;
+        background-position:  center right;
+        background-repeat: no-repeat;
+        background-size: cover ;
+        
+    }
+    .inicio>h1{
+        background-color: #0D0D0D;
+        color: #EAF205;
+        width: 27vh;
+        text-align: center;
+        margin-left: 400px;
+
+    }
     .botão{
         background-color: transparent;
         border: none;
