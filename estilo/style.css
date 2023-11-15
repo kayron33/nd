@@ -65,11 +65,12 @@ body{
         transition: 1s;
     }
     .inicio{
-        background-image: url(../imagens/frente\ da\ nordiesel.jpg);
-        max-width:1366px ;
-        min-width: 300px;
+        background-image: url(../imagens/1366\ editada.jpg);
+        width: 100%;
+
+        
         padding: 19vh;
-        background-position:  center right;
+        background-position:  center center;
         background-repeat: no-repeat;
         background-size: cover ;
         font-size: 30px;
