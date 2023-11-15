@@ -95,6 +95,10 @@ body{
         .botão{
             display: block;
         }
+        .inicio{
+            width: 267px;
+
+        }
         
         .paginas{
             position: absolute;
