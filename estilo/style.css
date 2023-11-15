@@ -71,6 +71,7 @@ body{
         display: flex;
     }
     picture>img{
+        margin: auto;
         
        
     }
