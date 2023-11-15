@@ -66,7 +66,7 @@ body{
     }
     .inicio{
         background-image: url(../imagens/1366\ editada.jpg);
-        width: 1vh%;
+        width: 100%;
         padding: 19vh;
         background-position:  center center;
         background-repeat: no-repeat;
