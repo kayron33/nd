@@ -73,6 +73,7 @@ body{
         background-repeat: no-repeat;
         background-size: cover ;
         font-size: 30px;
+        background-attachment: fixed;
         
     }
     .inicio>h1{
