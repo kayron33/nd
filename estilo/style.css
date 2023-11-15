@@ -71,7 +71,7 @@ body{
         padding: 19vh;
         background-position:  center right;
         background-repeat: no-repeat;
-        background-size: cover ;
+        background-size: 100% ;
         font-size: 30px;
         
     }
