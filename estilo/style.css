@@ -64,6 +64,20 @@ body{
         height: 100vh;
         transition: 1s;
     }
+    picture{
+        max-width: 600px;
+        min-width: 300px;
+        margin: auto;
+        display: flex;
+    }
+    picture>img{
+        max-width: 600px;
+        min-width: 300px;
+    }
+   
+      
+        
+    
     .inicio{
         background-color: var(--color-dark4);
 
@@ -145,6 +159,12 @@ body{
 main{
  background-color: white;
  color: var(--color-white);
+ 
     
    
+}
+main>img{
+    max-width: 600px;
+    min-width: 300px;
+    
 }
