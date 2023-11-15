@@ -102,7 +102,7 @@ body{
             top: 0;
             background-color: var(--color-dark4);
             height: 100%;
-            width: 100%;
+            width: 35vw;
             padding: 1em;
             animation-duration: 1s;
             margin-left: -100vw;
