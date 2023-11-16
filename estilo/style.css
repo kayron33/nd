@@ -65,11 +65,16 @@ body{
         transition: 1s;
     }
     picture{
-        max-width: 600px;
-        min-width: 300px;
+       min-width: 300px;
+       max-width: 600px;
+       margin: auto;
+       
         display: flex;
     }
     picture>img{
+       
+        width: 70%;
+        margin: auto;
         
 
        
