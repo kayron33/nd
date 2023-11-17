@@ -174,3 +174,32 @@ main>img{
     min-width: 300px;
     
 }
+/**vendas**/
+.Loja{
+    min-width: 300px;
+    max-width: 600px;
+    margin: auto;
+    background-color: #FBEE64;
+}
+.produto p{
+    background-color: #EAF205;
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 6px 10px;
+
+}
+.produto{
+margin-bottom: 20px;
+    cursor: pointer;
+}
+.produtos{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+.produto p:hover{
+    transform:rotate(-6deg) 
+}
+
+
