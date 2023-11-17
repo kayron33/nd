@@ -198,6 +198,14 @@ margin-bottom: 20px;
     flex-wrap: wrap;
     
 }
+.produto a {
+    background-color: #0D0D0D;
+    color: white;
+    font-size: 20px;
+    margin-left: 54px;
+   margin-right: 54px;
+    display: flex;
+}
 .produto p:hover{
     transform:rotate(-6deg) 
 }
