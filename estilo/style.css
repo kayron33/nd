@@ -20,8 +20,8 @@ body{
 
     }
     body{
-        background-color: white;
-        color: white;
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
         font-family: Arial, Helvetica, sans-serif;
     }
 
@@ -142,7 +142,7 @@ body{
    
     
    }
-   
+  
     
    
         
@@ -162,8 +162,8 @@ body{
 
 
 main{
- background-color: white;
- color: var(--color-white);
+ background-color: rgb(255, 255, 255);
+ color:rgb(0, 0, 0);
  
  
     
@@ -207,5 +207,14 @@ margin-bottom: 20px;
 .produto p:hover{
     transform:rotate(-6deg) 
 }
-
+.texto{
+    margin-top: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.texto h1{
+    margin-top: 25px;
+}
+.texto p{
+    padding: 15px;
+}
 
