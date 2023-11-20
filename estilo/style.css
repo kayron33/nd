@@ -109,11 +109,9 @@ body{
         .botão{
             display: block;
         }
-        localização{
-      width: 300px;
-      padding:300px 0px ;
+        
 
-        }
+        
         
         .paginas{
             position: absolute;
@@ -184,11 +182,11 @@ body{
     margin: 17px 0px;
 }
 .principal{
-    background-color: var(--color-white);
+    background-color: var(--color-dark4);
     padding: 50px 0px;
 }
 .principal h1{
-    color: var(--color-dark4);
+    color: var(--color-white);
     text-align: center;
     font-size: 40px;
 }
