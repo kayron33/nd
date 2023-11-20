@@ -137,11 +137,49 @@ body{
     text-decoration: none;
     color: #0D0D0D;
    }
-   .CONTATO>p{
-    font-size: 30px;
+   .tituloc{
+    background-color: var(--color-white);
+     color: white;
+     padding: 60px;
+
+   }
    
+   .tituloc h1{
+     text-align: center;
     
    }
+   .tituloc p{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 25px;
+   }
+   .contexto{
+    background-color: var(--color-dark4);
+    padding: 40px;
+ 
+   }
+   .contexto a{
+    text-decoration: none;
+    color: var(--color-white);
+   }
+.numeros{
+    background-color: var(--color-dark3);
+    padding: 60px 0px;
+
+ 
+    
+    
+}
+.numeros p{
+    font-size: 40px;
+    margin: 17px 0px;
+}
+
+
+
+   
+   
+  
   
     
    
