@@ -178,7 +178,15 @@ body{
     font-size: 40px;
     margin: 17px 0px;
 }
-
+.principal{
+    background-color: var(--color-white);
+    padding: 50px 0px;
+}
+.principal h1{
+    color: var(--color-dark4);
+    text-align: center;
+    font-size: 40px;
+}
 
 
    
@@ -218,9 +226,8 @@ main>img{
 }
 /**vendas**/
 .Loja{
-    min-width: 300px;
-    max-width: 600px;
-    margin: auto;
+    
+    
     background-color: #FBEE64;
 }
 .produto p{
