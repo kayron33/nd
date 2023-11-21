@@ -202,19 +202,10 @@ article p{
 }
 
 
-/** imagem da index**/
-
-.carro{
-   
-   background-image:url(../imagens/sistema\ de\ injeção.jpg) ;
-   background-repeat: no-repeat;
-  padding: 300px 0px;
-     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
 
 
-}
+
+
  
 
 
