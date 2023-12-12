@@ -248,57 +248,78 @@ main>img{
     
 }
 /**vendas**/
-.Loja{
-    background-color: #FBEE64;
-}
-.titulol{
-    background-color: var(#FBEE64);
-    padding: 40px 0px;
-}
-.titulol h1{
+h1{
     text-align: center;
-    font-size: 40px;
-    color: black;
-    
+    font-family:'Poppins', sans-serif ;
+    font-weight: bold;
 }
-.produto p{
-    background-color: #EAF205;
-    color: blue;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 6px 10px;
+
+h2{
+    text-align: center;
+    margin-bottom: 5rem ;
+    font-size: 4rem;
+    
 
 }
-.produto{
-margin-bottom: 20px;
-    cursor: pointer;
-}
-.produtos{
+.all-products{
     display: flex;
-    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
-    
+    background-color: var(--color-dark3);
+    font-family:'Merriweather Sans', sans-serif ;
+
 }
-.produto a {
-    color: black;
-    font-size: 20px;
+
+
+.product{
+    overflow: hidden;
+    background-color: #ffffff ;
+    color: #21201e;
+    text-align: center;
+    width: 240px;
+    height: 340px;
+    padding: 2rem;
     display: flex;
-    text-decoration: none;
-}
-.produto p:hover{
-    transform:rotate(-6deg) 
-}
-.texto{
-   
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-.texto h1{
-    margin-top: 5px;
-    padding: 15px;
-}
-.texto p{
-    padding: 15px;
-}
-.texto img{
-   
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1.2rem;
+    margin: 2rem;
     
 }
+.product img{
+    width: 250px;
+    height: 200px;
+    margin: 1rem;
+    transition: all 0.3s;
+    border-radius: 6px;
+}
+.product:hover img{
+    scale: 1.1;
+}
+
+.product:hover{
+    box-shadow: 5px 15px 25px #eeeeee;
+}
+
+.product a:link,.product a:visited{
+    color: var(--color-dark5);
+    display: inline-block;
+    text-decoration: none;
+    background-color: var(--color-dark4);
+    padding: 1.2rem 3rem ;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    transition: all 0.2s;
+
+}
+.product a:hover{
+    transform: scale(1.1);
+}
+.product-price-index{
+    background-color: orange;
+    border-radius: 4px;
+}
+  
+  
