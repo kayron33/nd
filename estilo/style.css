@@ -143,9 +143,10 @@ body{
    .principal{
     background-color: var(--color-dark4);
     width: 100%;
-    font-family: cali;
-
+    
    }
+   
+   
    @media (min-width: 1250px) { 
    .mapa{
     max-width: 800px;
