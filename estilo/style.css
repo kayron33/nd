@@ -243,6 +243,115 @@ main>img{
     min-width: 300px;
     
 }
+
+/**banner**/
+section.pai{
+    margin: 0 auto;
+    width: 100%;
+    height: 250px;
+    background-color:white;
+    z-index: 2;
+    padding: 0px !important;
+    overflow: hidden;
+    padding: 0px;
+    
+}
+
+.banner{
+    padding: 0px ;
+    width: 400%;
+    height: 660px;
+    display: flex;
+    margin-top: 0px;
+   
+}
+
+@media screen and (max-width:1285px) {
+    .banner{
+        width: 400%;
+    height: 200px;
+    }
+    section.pai{
+        height: 233px;
+    }
+}
+@media screen and (max-width:1235px) {
+    .banner{
+        width: 400%;
+    height: 200px;
+    }
+    section.pai{
+        height: 224px;
+    }
+}
+@media screen and (max-width:768px) {
+    .banner{
+        width: 400%;
+    height: 200px;
+    }
+    section.pai{
+        height: 89px;
+    }
+
+}
+@media screen and (max-width:400px) {
+    .banner{
+        width: 400%;
+    height: 200px;
+    }
+    section.pai{
+        height: 68px;
+    }
+
+}
+
+.banner input, .img-mobile{
+    display: none;
+}
+
+.banner-img{
+    width: 25%;
+    height: auto;
+    position: relative;
+    text-align: center;
+    transition: 1s;
+}
+
+.banner-img img{
+    width: 100%;
+}
+
+.nav-manual, .nav-auto{
+    position: absolute;
+    width: 100%;
+    margin-top: 35%;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-manual .manual-btn, .nav-auto div{
+    display: none;
+}
+
+.nav-manual .manual-btn:not(:last-child), .nav-auto div:not(:last-child){
+    margin-right: 10px;
+}
+
+.nav-manual .manual-btn:hover{
+    background-color: #EAF205;
+}
+
+#r1:checked ~ .nav-auto .auto-btn1, #r2:checked ~ .nav-auto .auto-btn2{
+    background-color: #EAF205;
+}
+
+#r1:checked ~ .primeiro{
+    margin-left: 0%;
+}
+
+#r2:checked ~ .primeiro{
+    margin-left: -25%;
+}
 /**vendas**/
 h1{
     text-align: center;
