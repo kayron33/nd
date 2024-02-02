@@ -75,6 +75,16 @@ body{
             top:30px;
         }
     }
+    @media screen and (max-width:1020px) {
+        .flex{
+            flex-direction: column;
+        }
+        .img-topo-site{
+            width: 300px;
+            
+        }
+        
+    }
     
 /** especialidade**/
 .especialidade{
