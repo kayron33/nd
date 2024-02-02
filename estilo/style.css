@@ -160,6 +160,7 @@ body{
     }
     .paginas{
         gap: 3em;
+        z-index: 999;
         
 
     }
