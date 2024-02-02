@@ -122,11 +122,22 @@ body{
     margin: 15px 0px;
 }
 
+.informacao{
+    width: 300px;
+}
+.shop{
+    text-decoration: none;
+    color: var(--color-dark4);
+}
 
 
+/** BANNER SOBRE AS PEÇAS**/
 
-
-
+.banner .imagem-do-banner img{
+    width: 100%;
+    height: 300px;
+   
+}
 
 
 
