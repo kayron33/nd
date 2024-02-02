@@ -64,6 +64,7 @@ body{
     .topo-do-site .img-topo-site img{
         position: relative;
         animation: flutuar 2s ease-in-out infinite alternate;
+        z-index: 10;
     }
 
     @keyframes flutuar{
@@ -81,7 +82,7 @@ body{
         }
         .img-topo-site{
             width: 300px;
-            
+
         }
         
     }
@@ -238,6 +239,7 @@ body{
             padding: 1em;
             animation-duration: 1s;
             margin-left: -100vw;
+            z-index: 999;
 
 
         }
@@ -359,17 +361,7 @@ main>img{
 
 
 
-.banner input, .img-mobile{
-    display: none;
-}
 
-.banner-img{
-    width: 25%;
-    height: auto;
-    position: relative;
-    text-align: center;
-    transition: 1s;
-}
 
 .banner-img img{
     width: 100%;
