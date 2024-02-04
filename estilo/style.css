@@ -129,6 +129,8 @@ body{
     text-decoration: none;
     color: var(--color-dark4);
     background-color: var(--color-white);
+    border-radius: 5px;
+    
 }
 
 
