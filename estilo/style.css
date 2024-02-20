@@ -197,9 +197,9 @@ body{
     text-align: justify;
  }
 
-/** nosso serviço**/
+/** portifolio**/
 .portifolio{
-    padding: 80px 4%;
+    padding: 80px 30%;
     box-shadow: 0 0 40px 10px rgba(0, 0, 0, 0.11);
 
 }
