@@ -199,13 +199,20 @@ body{
 
 /** portifolio**/
 .portifolio{
-    padding: 80px 30%;
+    padding: 80px 4%;
     box-shadow: 0 0 40px 10px rgba(0, 0, 0, 0.11);
 
 }
+
 .portifolio .flex{
     justify-content: space-around;
 }
+@media screen and (max-width:400px) {
+    .portifolio .flex{
+        padding: 40px 0px;
+    }
+}
+
 .img-port{
     width: 360px;
     height: 460px;
@@ -216,6 +223,13 @@ body{
     border-radius: 40px;
     position: relative;
 }
+@media screen and (max-width:400px) {
+    .img-port{
+        width: 350px;
+    height: 400px;
+    }
+}
+
 .img-port:hover{
     background-position: 100% 100%;
 }
