@@ -91,7 +91,7 @@ body{
 
     /** redes sociais dos contatos**/
     #footer_content{
-        background-color: var(--color-dark4);
+        background-color: var(--color-white);
         display: grid;
         grid-template-columns:  repeat(4,1fr);
         padding: 3rem 3.5rem;
@@ -108,7 +108,7 @@ body{
         justify-content: center;
         height: 2.5rem;
         width: 2.5rem;
-        color: var(--color-dark5);
+        color: var(--color-white);
         border-radius: 50%;
         text-decoration: none;
       transition: all 0.4s;
@@ -604,13 +604,13 @@ h2{
  /**footer**/ 
  footer{
     padding: 60px 4%;
-    background-color: var(--color-dark4);
+    background-color: var(--color-white);
  }
  footer .flex{
     justify-content: space-between;
  }
  .btn-social{
-    background-color: var(--color-dark4);
+    background-color: var(--color-white);
     font-weight: 600;
     font-size: 35px;
     font-family: Arial, Helvetica, sans-serif
