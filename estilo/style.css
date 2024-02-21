@@ -91,16 +91,20 @@ body{
 
     /** redes sociais dos contatos**/
     #footer_content{
-        background-color: var(--color-white);
+        background-color: var(--color-dark4);
         display: grid;
         grid-template-columns:  repeat(4,1fr);
         padding: 3rem 3.5rem;
         height: 100%;
     }
+    #footer_content{
+        background-color: var(--color-whit,);
+    }
     #footer_social_media{
         display: flex;
         gap: 2rem;
         margin-top: 1.5rem;
+        
     }
     #footer_social_media .footer-link{
         display: flex;
@@ -604,13 +608,13 @@ h2{
  /**footer**/ 
  footer{
     padding: 60px 4%;
-    background-color: var(--color-white);
+    background-color: var(--color-dark4);
  }
  footer .flex{
     justify-content: space-between;
  }
  .btn-social{
-    background-color: var(--color-white);
+    background-color: var(--color-dark4);
     font-weight: 600;
     font-size: 35px;
     font-family: Arial, Helvetica, sans-serif
@@ -625,7 +629,7 @@ h2{
  }
  
  footer .line-footer p{
-    color: var(--color-white);
+    color: var(--color-dark4);
  }
  footer .line-footer i{
     font-size: 19px;
@@ -638,4 +642,7 @@ h2{
     color: var(--color-white);
    
    
+ }
+ .contatofooter{
+    background-color: var(--color-white);
  }
